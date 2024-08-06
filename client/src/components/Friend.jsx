@@ -6,7 +6,7 @@ import { setFriends } from "src/state/index";
 import FlexBetween from "./FlexBetween";
 import UserImage from "./UserImage";
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URLL;
 
 const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
   const dispatch = useDispatch();

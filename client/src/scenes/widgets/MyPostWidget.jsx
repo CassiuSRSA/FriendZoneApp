@@ -21,7 +21,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "src/state/index";
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 const MyPostWidget = ({ picturePath }) => {
   const dispatch = useDispatch();

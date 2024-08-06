@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 const UserImage = ({ image, size = "60px" }) => {
   return (

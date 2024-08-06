@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { setPosts } from "src/state/index";
 import PostWidget from "./PostWidget";
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 const PostsWidget = ({ userId, isProfile = false }) => {
   const dispatch = useDispatch();

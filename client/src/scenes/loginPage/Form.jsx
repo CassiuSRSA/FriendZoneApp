@@ -46,7 +46,7 @@ const initialValuesLogin = {
   password: "",
 };
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 const Form = () => {
   const [pageType, setPageType] = useState("login");

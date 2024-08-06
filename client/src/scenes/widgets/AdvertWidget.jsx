@@ -2,7 +2,7 @@ import { Typography, useTheme } from "@mui/material";
 import FlexBetween from "src/components/FlexBetween";
 import WidgetWrapper from "src/components/WidgetWrapper";
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 const AdvertWidget = () => {
   const { palette } = useTheme();

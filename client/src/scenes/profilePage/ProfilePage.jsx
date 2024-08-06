@@ -8,7 +8,7 @@ import MyPostWidget from "src/scenes/widgets/MyPostWidget";
 import PostsWidget from "src/scenes/widgets/PostsWidget";
 import UserWidget from "src/scenes/widgets/UserWidget";
 
-const baseUrl = import.meta.env.BASE_URL;
+const baseUrl = import.meta.env.VITE_BASE_URL;
 
 const ProfilePage = () => {
   const [user, setUser] = useState(null);
